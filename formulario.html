@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="./ws/createElement.php" method="POST">
+        <label>
+            Nombre <input type="text" name="nombre">
+        </label>
+        <br>
+        <label>
+            Apellidos <input type="text" name="apellidos">
+        </label>
+        <br>
+        <label>
+            Contraseña <input type="password" name="password">
+        </label>
+        <br>
+        <label>
+            Teléfono <input type="text" name="telefono">
+        </label>
+        <br>
+        <label>
+            Email <input type="email" name="email">
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="sexo" value="H"> Hombre
+        </label>
+        <label>
+            <input type="radio" name="sexo" value="M"> Mujer
+        </label>
+        <label>
+            <input type="radio" name="sexo" value="O"> Otro
+        </label>
+        <hr>
+        <button type="submit">ENVIAR</button>
+    </form>
+</body>
+</html>
